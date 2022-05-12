@@ -65,4 +65,4 @@ object Activity {
   case class WithUserId(activity: Activity, userId: User.ID)
 
   def make(userId: User.ID) = Activity(Id today userId)
-}
+} 
